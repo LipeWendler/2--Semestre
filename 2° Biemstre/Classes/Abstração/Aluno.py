@@ -5,4 +5,4 @@ class Aluno(Pessoa):
         super().__init__(nome) #Passa o nome para a classe mãe
 
     def saudar(self):
-        return f'Olá, eu sou o aluno {self.nome}'
+        print(f'Olá, eu sou o aluno {self.nome}')
