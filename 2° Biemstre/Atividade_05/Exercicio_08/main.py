@@ -1,7 +1,7 @@
 from Carro import Carro
 from Moto import Moto
 
-c1 = Carro('GT', 1966)
+c1 = Carro('Ford GT', 1966)
 m1 = Moto('GS1250', 'BMW')
 
 print(40*"=")
